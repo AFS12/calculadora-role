@@ -1,3 +1,6 @@
+O intuito desta calculadora é facilitar de quem paga o que e quanto no role
+
+Para rodar o projeto localmente:
 # calculadora-role
 
 ## Project setup

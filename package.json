@@ -2,6 +2,7 @@
   "name": "calculadora-role",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://afs12.github.io/calculadora-role/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

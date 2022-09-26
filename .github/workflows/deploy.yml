@@ -29,8 +29,10 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: cd dist
+    - run: git config --global user.email arthurmbayres@gmail.com
+    - run: git config --global user.name AFS12
     - run: git init
     - run: git add -A
     - run: git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-    - run: git push -f "https://github.com/${GITHUB_REPOSITORY}.git"
+    - run: git push -f "https://github.com/calculadora-role.git"
     - run: main:gh-pages

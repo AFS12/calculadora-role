@@ -34,5 +34,5 @@ jobs:
     - run: git init
     - run: git add -A
     - run: git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-    - run: git push -f "https://github.com/calculadora-role.git"
+    - run: git push -f "https://github.com/${GITHUB_REPOSITORY}.git" 
     - run: main:gh-pages
